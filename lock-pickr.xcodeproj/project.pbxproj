@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2F729929D7388C000D40F5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F729829D7388C000D40F5 /* PageViewController.swift */; };
+		4D2F729B29D73A2F000D40F5 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F729A29D73A2F000D40F5 /* LoginPage.swift */; };
+		4D2F729D29D741A7000D40F5 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F729C29D741A7000D40F5 /* AuthView.swift */; };
 		4DE1F44229D6427200C8DDF6 /* lock_pickrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1F44129D6427200C8DDF6 /* lock_pickrApp.swift */; };
 		4DE1F44429D6427200C8DDF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1F44329D6427200C8DDF6 /* ContentView.swift */; };
 		4DE1F44629D6427300C8DDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1F44529D6427300C8DDF6 /* Assets.xcassets */; };
 		4DE1F44929D6427300C8DDF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1F44829D6427300C8DDF6 /* Preview Assets.xcassets */; };
+		4DE1F45129D6476400C8DDF6 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1F45029D6476400C8DDF6 /* SignUpPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2F729829D7388C000D40F5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4D2F729A29D73A2F000D40F5 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		4D2F729C29D741A7000D40F5 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		4DE1F43E29D6427200C8DDF6 /* lock-pickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lock-pickr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE1F44129D6427200C8DDF6 /* lock_pickrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lock_pickrApp.swift; sourceTree = "<group>"; };
 		4DE1F44329D6427200C8DDF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DE1F44529D6427300C8DDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE1F44829D6427300C8DDF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DE1F45029D6476400C8DDF6 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				4DE1F44129D6427200C8DDF6 /* lock_pickrApp.swift */,
+				4D2F729829D7388C000D40F5 /* PageViewController.swift */,
+				4DE1F44F29D6472D00C8DDF6 /* Views */,
 				4DE1F44329D6427200C8DDF6 /* ContentView.swift */,
 				4DE1F44529D6427300C8DDF6 /* Assets.xcassets */,
 				4DE1F44729D6427300C8DDF6 /* Preview Content */,
@@ -65,6 +75,16 @@
 				4DE1F44829D6427300C8DDF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DE1F44F29D6472D00C8DDF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1F45029D6476400C8DDF6 /* SignUpPage.swift */,
+				4D2F729A29D73A2F000D40F5 /* LoginPage.swift */,
+				4D2F729C29D741A7000D40F5 /* AuthView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE1F45129D6476400C8DDF6 /* SignUpPage.swift in Sources */,
 				4DE1F44429D6427200C8DDF6 /* ContentView.swift in Sources */,
+				4D2F729D29D741A7000D40F5 /* AuthView.swift in Sources */,
 				4DE1F44229D6427200C8DDF6 /* lock_pickrApp.swift in Sources */,
+				4D2F729B29D73A2F000D40F5 /* LoginPage.swift in Sources */,
+				4D2F729929D7388C000D40F5 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
